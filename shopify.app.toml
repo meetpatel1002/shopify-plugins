@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "88cdd2163ba1305a4c0463082882d724"
+name = "Yoyo"
+handle = "yoyo-12"
+application_url = "https://compounds-reading-classified-crazy.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "meetpatel10.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_content,read_inventory,read_product_listings,read_products,write_content,write_discounts,write_products"
+
+[auth]
+redirect_urls = [
+  "https://compounds-reading-classified-crazy.trycloudflare.com/auth/callback",
+  "https://compounds-reading-classified-crazy.trycloudflare.com/auth/shopify/callback",
+  "https://compounds-reading-classified-crazy.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
