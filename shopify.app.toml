@@ -3,7 +3,7 @@
 client_id = "88cdd2163ba1305a4c0463082882d724"
 name = "Yoyo"
 handle = "yoyo-12"
-application_url = "https://compounds-reading-classified-crazy.trycloudflare.com"
+application_url = "https://challenged-equipment-rural-her.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_content,read_inventory,read_product_listings,read_products,write_
 
 [auth]
 redirect_urls = [
-  "https://compounds-reading-classified-crazy.trycloudflare.com/auth/callback",
-  "https://compounds-reading-classified-crazy.trycloudflare.com/auth/shopify/callback",
-  "https://compounds-reading-classified-crazy.trycloudflare.com/api/auth/callback"
+  "https://challenged-equipment-rural-her.trycloudflare.com/auth/callback",
+  "https://challenged-equipment-rural-her.trycloudflare.com/auth/shopify/callback",
+  "https://challenged-equipment-rural-her.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
